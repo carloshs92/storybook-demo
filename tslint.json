@@ -6,5 +6,18 @@
       "node_modules/**/*.ts",
       "coverage/lcov-report/*.js"
     ]
+  },
+  "rules": {
+    "ordered-imports": false,
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "variable-name": {
+      "options": [
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    },
+    "interface-name" : false
   }
 }
