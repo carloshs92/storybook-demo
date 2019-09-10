@@ -17,7 +17,7 @@ const ButtonStyled = styled(ButtonBase)`
   }
   &[loading] {
     &:before {
-      color: ${props => props.theme.text02};
+      color: ${props => props.theme.text03};
     }
   }
   ${Body1} {

@@ -59,6 +59,9 @@ export const ButtonBase = styled(Button)`
       }};
       opacity: 1;
     }
+    span {
+      display: none;
+    }
   }
   &:before {
     animation-duration: 1s;
