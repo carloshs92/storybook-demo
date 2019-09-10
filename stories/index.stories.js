@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import { configure } from '@storybook/react';
-import {lightTheme} from "./theme";
+import {darkTheme, lightTheme} from "./theme";
 import {GlobalStyles} from "../src/design-system/theme";
 import { ThemeProvider } from 'styled-components';
 

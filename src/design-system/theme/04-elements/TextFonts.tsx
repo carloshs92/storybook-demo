@@ -17,7 +17,7 @@ export const Heading1 = styled.h1`
   font-size: 2.4rem;
   font-style: normal;
   font-weight: ${getWeight(FONT_BLACK)};
-  line-height: 3.2rem;
+  line-height: 2rem;
 `;
 
 export const Heading2 = styled.h2`
